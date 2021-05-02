@@ -9,7 +9,7 @@ const About = () => {
             <div className="row d-flex justify-content-between">
                 <Bounce left>
                     <div className="col-md-5 aboutImg">
-                        <img style={{ width: "450px", height: "680px", borderRadius: '10px' }} src={rahat} alt="" />
+                        <img style={{ width: "100%", height: "680px", borderRadius: '10px' }} src={rahat} alt="" />
 
                     </div>
                 </Bounce>

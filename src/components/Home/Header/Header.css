@@ -41,3 +41,14 @@
     text-decoration-color:#51a4a1;
     text-decoration-style: solid;   
 }
+
+#particle{
+    position: absolute;
+    z-index:1;
+    
+}
+#header{
+    position: absolute;
+    z-index:2;
+    
+}

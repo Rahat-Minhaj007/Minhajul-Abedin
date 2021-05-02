@@ -8,10 +8,14 @@ import './Header.css';
 const Header = () => {
     return (
         <div id='home' className='header-container'>
-          
-            <Navbar ></Navbar>
-            <HeaderMain></HeaderMain>
-            {/* <ParticlesBackground></ParticlesBackground> */}
+
+            <div id='header'>
+                <Navbar ></Navbar>
+                <HeaderMain></HeaderMain>
+            </div>
+            <div>
+                <ParticlesBackground id='particle'></ParticlesBackground>
+            </div>
         </div>
     );
 };

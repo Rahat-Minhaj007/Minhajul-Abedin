@@ -7,7 +7,9 @@ import Bounce from 'react-reveal/Bounce';
 const Skill = () => {
     return (
         <section id='skill' className="skill-container container-fluid py-5  mt-5">
-            <h2 className="text-uppercase text-center "><span style={{ color: "#51a4a1" }}><FontAwesomeIcon style={{ color: '#51a4a1', width: '30px', fontSize: '30px' }} icon={faCode} /> S</span>kill</h2>
+            <Bounce right>
+                <h2 className="text-uppercase text-center "><span style={{ color: "#51a4a1" }}><FontAwesomeIcon style={{ color: '#51a4a1', width: '30px', fontSize: '30px' }} icon={faCode} /> S</span>kill</h2>
+            </Bounce>
 
             <div className="row d-flex justify-content-center skills mt-5 py-5" style={{ color: 'whiteSmoke', fontSize: "20px", fontFamily: 'roboto' }}>
                 <Bounce top>

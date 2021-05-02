@@ -8,7 +8,7 @@ const HeaderMain = () => {
     return (
         <div style={{ height: "800px" }} className=" d-flex align-items-center justify-content-center text-dark p-5 header-content">
             <div className="offset-md-5">
-                <img style={{ width: '25%', borderRadius: '50%', height: "20%" }} src={rahat} alt="" />
+                <img style={{ width: '20%', borderRadius: '50%', height: "20%" }} src={rahat} alt="" />
                 <h1 className="text-uppercase mt-3">Hello, I'm minhajul abedin</h1>
 
                 <h3 className="text-uppercase">
