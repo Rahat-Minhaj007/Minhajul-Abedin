@@ -1,5 +1,7 @@
 import React from 'react';
 import About from '../About/About';
+import Blog from '../Blog/Blog';
+import Contact from '../Contact/Contact';
 import Header from '../Header/Header';
 import Project from '../Project/Project';
 import Resume from '../Resume/Resume';
@@ -14,6 +16,8 @@ const Home = () => {
             <Skill></Skill>
             <Resume></Resume>
             <Project></Project>
+            <Blog></Blog>
+            <Contact></Contact>
         </div>
     );
 };

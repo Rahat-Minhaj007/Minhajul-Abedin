@@ -1,9 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-// import icon from '../../../images/icon.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
-// <img style={{ width: '50px' }} src={icon} alt="" />
+import './Navbar.css';
+
 
 const Navbar = () => {
     
@@ -17,7 +16,7 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <a className="navbar-brand  fw-bold fs-4" href="#about" style={{fontFamily:'Dancing Script, cursive'}}>MINHAJUL</a>
-                    <ul className="navbar-nav  mb-2 mb-lg-0" style={{marginLeft:'900px'}}>
+                    <ul className="navbar-nav mb-2 mb-lg-0 ms-auto navbarStyle">
 
                         <li className="nav-item">
                             <a className="nav-link me-5 active fw-bold fs-6" aria-current="page" href="#home">Home</a>
@@ -46,7 +45,7 @@ const Navbar = () => {
                    
                 </div>
             </div>
-            <button className="btn btn-brand fw-bold fixed-bottom ms-auto mb-5 mr-3" ><a href="#home"><FontAwesomeIcon style={{ color: 'white', width: '30px',fontSize:'30px' }} icon={faAngleUp} /></a></button>
+            <button className="btn btn-brand fw-bold fixed-bottom ms-auto mb-5 " style={{marginRight:'100px'}}><a href="#home"><FontAwesomeIcon style={{ color: 'white', width: '30px',fontSize:'30px' }} icon={faAngleUp} /></a></button>
         </nav>
     );
 };

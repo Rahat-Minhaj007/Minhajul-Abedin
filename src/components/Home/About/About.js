@@ -30,8 +30,8 @@ const About = () => {
                             </div>
 
                         </div>
-                        <a href="https://drive.google.com/uc?export=download&id=1zAoMWyLlNoB60Q6i7VX3IkrPnkdL_-U-"> <button className="btn btn-brand text-uppercase mt-3"><strong><FontAwesomeIcon icon={faDownload} /> Resume</strong></button></a> <button className="btn btn-brand text-uppercase mt-3 ms-5"><strong><FontAwesomeIcon icon={faEnvelope} /> Contact Me</strong></button>
-
+                        <a href="https://drive.google.com/uc?export=download&id=1zAoMWyLlNoB60Q6i7VX3IkrPnkdL_-U-"> <button className="btn btn-brand text-uppercase mt-3"><strong><FontAwesomeIcon icon={faDownload} /> Resume</strong></button></a> <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBpgLKtZJTSGlBfvppPDgHhZdXVCqdmWGTcPzWrsSnPFNkkBZcffsBbtjkXHZwvhMqRHchQ" target='_blank'><button className="btn btn-brand text-uppercase mt-3 ms-5"><strong><FontAwesomeIcon icon={faEnvelope} /> Contact Me</strong></button>
+                        </a>
                     </div>
                 </Bounce>
             </div>

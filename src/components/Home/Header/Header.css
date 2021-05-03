@@ -52,3 +52,14 @@
     z-index:2;
     
 }
+@media (max-width: 768px){
+    .header-container{
+        height:990px;
+        background-image: linear-gradient(135deg,#76c96e,#51a4a1);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position:relative;
+      
+    }
+  
+}

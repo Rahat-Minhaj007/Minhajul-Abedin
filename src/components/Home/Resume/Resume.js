@@ -13,10 +13,10 @@ const Resume = () => {
             </Bounce>
             <div className="row d-flex justify-content-between mt-5 py-5" style={{ color: '#74757f', fontSize: "17px", fontFamily: 'roboto' }} >
                 <Roll left>
-                    <div className="col-md-4" >
-                        <h3 className="text-center mt-4"><FontAwesomeIcon style={{ color: '#51a4a1', width: '30px', fontSize: '30px' }} icon={faBriefcase} /> EXPERIENCE</h3>
+                    <div className="col-md-5" >
+                        <h3 className="text-center mb-4"><FontAwesomeIcon style={{ color: '#51a4a1', width: '30px', fontSize: '30px' }} icon={faBriefcase} /> EXPERIENCE</h3>
 
-                        <div className='exp' style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '28rem' }}
+                        <div className='exp' style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '100%' }}
                             class="card mt-4" >
                             <div class="card-body">
                                 <h4 class="card-title">INTERNSHIP</h4>
@@ -30,10 +30,10 @@ const Resume = () => {
 
                     </div>
                 </Roll>
-                <div className="col-md-5 ">
-                    <h3 className="text-center mt-4"><FontAwesomeIcon style={{ color: '#51a4a1', width: '30px', fontSize: '30px' }} icon={faGraduationCap} /> EDUCATION</h3>
+                <div className="col-md-5">
+                    <h3 className="text-center mb-4 mt-2"><FontAwesomeIcon style={{ color: '#51a4a1', width: '30px', fontSize: '30px' }} icon={faGraduationCap} /> EDUCATION</h3>
                     <Roll right>
-                        <div style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '30rem' }}
+                        <div style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '100%' }}
                             class="card mt-4" >
                             <div class="card-body">
                                 <h4 class="card-title">Daffodil International University</h4>
@@ -46,7 +46,7 @@ const Resume = () => {
                     </Roll>
 
                     <Roll right>
-                        <div style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '30rem' }}
+                        <div style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '100%' }}
                             class="card mt-4" >
                             <div class="card-body">
                                 <h4 class="card-title">Dr. Mahbubur Rahman Mollah College</h4>
@@ -59,7 +59,7 @@ const Resume = () => {
                     </Roll>
 
                     <Roll right>
-                        <div style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '30rem' }}
+                        <div style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '100%' }}
                             class="card mt-4" >
                             <div class="card-body">
                                 <h4 class="card-title">Shamsul Haque Khan School & College</h4>
