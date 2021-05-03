@@ -6,10 +6,10 @@ import { faFacebook, faGithub, faInstagram, faLinkedin } from "@fortawesome/free
 
 const HeaderMain = () => {
     return (
-        <div style={{ height: "800px" }} className=" d-flex align-items-center justify-content-center text-dark p-5 header-content">
+        <div style={{ height: "930px" }} className=" d-flex align-items-center justify-content-center text-dark p-5 header-content">
             <div className="offset-md-6">
                 <img style={{ width: '30%', borderRadius: '50%', height: "20%" }} src={rahat} alt="" />
-                <h1 className="text-uppercase mt-3">Hello, I'm minhajul abedin rahat</h1>
+                <h1 className="text-uppercase mt-3 ">Hello, I'm minhajul abedin</h1>
 
                 <h3 className="text-uppercase">
                     <Typewriter
