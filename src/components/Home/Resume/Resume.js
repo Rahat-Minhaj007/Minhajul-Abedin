@@ -7,16 +7,16 @@ import Bounce from 'react-reveal/Bounce';
 
 const Resume = () => {
     return (
-        <section id='resume' className="resume-container container py-5  mt-5">
+        <section id='resume' className="resume-container container py-5  mt-5" >
             <Bounce left>
-                <h2 className="text-uppercase text-center "><span style={{ color: "#51a4a1" }}><FontAwesomeIcon style={{ color: '#51a4a1', width: '30px', fontSize: '30px' }} icon={faFile} /> R</span>esume</h2>
+                <h2 className="text-uppercase text-center " style={{fontFamily:'poppins'}}><FontAwesomeIcon style={{ color: '#76c96e', width: '18px', fontSize: '30px' }} icon={faFile} /><span style={{ color: "#76c96e",fontFamily: 'poppins'}}> R</span>esume</h2>
             </Bounce>
-            <div className="row d-flex justify-content-between mt-5 py-5" style={{ color: '#74757f', fontSize: "17px", fontFamily: 'roboto' }} >
-                <Roll left>
+            <div className="row d-flex justify-content-between mt-5 py-5" style={{ color: 'black', fontSize: "17px", fontFamily: 'poppins' }} >
+                
                     <div className="col-md-5" >
-                        <h3 className="text-center mb-4"><FontAwesomeIcon style={{ color: '#51a4a1', width: '30px', fontSize: '30px' }} icon={faBriefcase} /> EXPERIENCE</h3>
-
-                        <div className='exp' style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '100%' }}
+                        <h3 className="text-center "><FontAwesomeIcon style={{ color: '#76c96e', width: '30px', fontSize: '30px' }} icon={faBriefcase} /> EXPERIENCE</h3>
+                        <Roll left>
+                        <div  className='exp mt-4' style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '100%' }}
                             class="card mt-4" >
                             <div class="card-body">
                                 <h4 class="card-title">INTERNSHIP</h4>
@@ -27,11 +27,11 @@ const Resume = () => {
                                 <button type="button" class="btn btn-outline-success">11/2020-01/2021</button>
                             </div>
                         </div>
-
+                        </Roll>
                     </div>
-                </Roll>
+               
                 <div className="col-md-5">
-                    <h3 className="text-center mb-4 mt-2"><FontAwesomeIcon style={{ color: '#51a4a1', width: '30px', fontSize: '30px' }} icon={faGraduationCap} /> EDUCATION</h3>
+                    <h3 className="text-center mb-4 mt-2"><FontAwesomeIcon style={{ color: '#76c96e', width: '30px', fontSize: '30px' }} icon={faGraduationCap} /> EDUCATION</h3>
                     <Roll right>
                         <div style={{ border: "none", boxShadow: "10px 10px 40px rgb(240, 240, 240)", width: '100%' }}
                             class="card mt-4" >

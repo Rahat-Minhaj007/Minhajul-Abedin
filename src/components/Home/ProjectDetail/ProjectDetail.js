@@ -13,9 +13,9 @@ const ProjectDetail = (props) => {
                 <div class="card mb-3 pro" style={{ border: "none", width: "100%", boxShadow: "10px 10px 40px rgb(240, 240, 240)" }}>
                     <img style={{ width: '100%' }} src={img} class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h5 style={{ color: '#74757f', fontFamily: 'roboto' }} class="card-title">{name}</h5>
+                        <h5 style={{ color: 'black', fontFamily: 'roboto' }} class="card-title">{name}</h5>
 
-                        <p style={{ color: '#74757f', fontSize: "18px", fontFamily: 'roboto', height: '5rem' }}> <strong>Technology Used</strong>:  {tech}</p>
+                        <p style={{ color: 'black', fontSize: "18px", fontFamily: 'roboto', height: '5rem' }}> <strong>Technology Used</strong>:  {tech}</p>
 
                     </div>
 

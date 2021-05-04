@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleUp, faHome, faAddressCard, faCode,faFile,faTasks,faBlog } from '@fortawesome/free-solid-svg-icons';
+import { faAngleUp, faHome, faAddressCard, faCode, faFile, faTasks, faBlog } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css';
 
 const Navbar = () => {
 
     return (
         <div>
-            
+            <a className="fw-bold fs-4 p-5"  href="#about" style={{ fontFamily: 'Dancing Script, cursive',color:'black',textDecoration:'none' }}>MINHAJUL</a>
             <div className="navigationBar">
                 <ul>
                     <li><a href="#home"><FontAwesomeIcon icon={faHome} /><span>Home</span></a></li>

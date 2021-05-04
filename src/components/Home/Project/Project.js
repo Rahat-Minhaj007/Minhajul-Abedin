@@ -33,7 +33,7 @@ const Project = () => {
             id: 3,
             name: 'RIDDER-MAMA',
             img: rideMama,
-            tech: 'ReactJS, React Bootstarp , React-Router , Firebase , Netlify.',
+            tech: 'ReactJS, React Bootstrap , React-Router , Firebase , Netlify.',
             live: 'https://ride-mama.netlify.app/',
             git: 'https://github.com/Rahat-Minhaj007/ride-mama'
         },
@@ -68,7 +68,7 @@ const Project = () => {
     return (
         <section id='project' className="project-container container  py-5  mt-5">
             <Bounce right>
-                <h2 className="text-uppercase text-center "><span style={{ color: "#51a4a1" }}><FontAwesomeIcon style={{ color: '#51a4a1', width: '30px', fontSize: '30px' }} icon={faTasks} /> P</span>rojects</h2>
+                <h2 className="text-uppercase text-center " style={{ fontFamily:'poppins' }}><span style={{ color: "#76c96e" }}><FontAwesomeIcon style={{ color: '#76c96e', width: '30px', fontSize: '30px' }} icon={faTasks} /> P</span>rojects</h2>
             </Bounce>
 
             <div className="row d-flex justify-content-center  mt-5 py-5" style={{ color: 'black', fontSize: "20px", fontFamily: 'roboto' }}>
