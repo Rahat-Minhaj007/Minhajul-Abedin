@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import About from '../About/About';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
@@ -8,7 +8,11 @@ import Resume from '../Resume/Resume';
 import Skill from '../Skill/Skill';
 import './Home.css';
 
+
 const Home = () => {
+   
+    
+    
     return (
         <div>
             <Header></Header>

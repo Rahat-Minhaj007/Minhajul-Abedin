@@ -23,10 +23,10 @@ const Skill = () => {
                             <p><span className='fw-bold' >✓</span> React Router</p>
                             <p><span className='fw-bold' >✓</span> REST API</p>
                             <p><span className='fw-bold'>✓</span> Firebase</p>
-                            <p><span className='fw-bold' >✓</span> React Bootstarp</p>
+                            <p><span className='fw-bold' >✓</span> React Bootstrap</p>
                             <p><span className='fw-bold' >✓</span> HTML5</p>
                             <p><span className='fw-bold' >✓</span> CSS3</p>
-                            <p><span className='fw-bold'>✓</span> Bootstarp</p>
+                            <p><span className='fw-bold'>✓</span> Bootstrap</p>
                         </div>
 
                     </div>
@@ -71,7 +71,7 @@ const Skill = () => {
                         <h3 className=' text-uppercase fw-bold text-center' style={{color:'black',fontFamily:'poppins'}}><FontAwesomeIcon style={{ width: '30px', fontSize: '30px' }} icon={faTools} /> Tools</h3>
                         <br />
                         <div className='text-center'>
-                            <p><span className='fw-bold'>✓</span> GitHub(version control)</p>
+                            <p><span className='fw-bold'>✓</span> Git(version control)</p>
                             <p><span className='fw-bold'>✓</span> Chrome Dev Tool</p>
                             <p><span className='fw-bold' >✓</span> NPM</p>
                             <p><span className='fw-bold' >✓</span> Netlify</p>

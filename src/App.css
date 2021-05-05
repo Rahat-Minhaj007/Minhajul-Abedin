@@ -1,6 +1,17 @@
 .App {
   text-align: center;
-  font-family: 'Poppins'
+  font-family: 'Poppins';
+  background-color: black;
+}
+.spinner{
+  margin-left: 48%;
+  margin-top: 22%
+}
+@media only screen and (max-width: 768px) {
+  .spinner{
+    margin-left: 40%;
+    margin-top: 80%
+  }
 }
 
 .App-logo {

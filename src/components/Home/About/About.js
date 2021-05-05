@@ -8,7 +8,7 @@ const About = () => {
         <section id='about' className="about-container container py-5  mt-5">
             <div className="row d-flex justify-content-between">
                 <Bounce left>
-                    <div className="col-md-5 aboutImg">
+                    <div className="col-md-5 aboutImg" data-aos="zoom-in-up">
                         <img style={{ width: "100%", height: "680px", borderRadius: '10px' }} src={rahat} alt="" />
 
                     </div>
