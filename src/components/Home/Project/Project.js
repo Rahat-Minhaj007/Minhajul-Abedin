@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTasks } from '@fortawesome/free-solid-svg-icons';
-import Bounce from 'react-reveal/Bounce';
 import eSchool from '../../../images/school.png';
 import eCommerce from '../../../images/commerce.png';
 import rideMama from '../../../images/ride.png';
@@ -67,9 +66,11 @@ const Project = () => {
 
     return (
         <section id='project' className="project-container container  py-5  mt-5">
-            <Bounce right>
-                <h2 className="text-uppercase text-center " style={{ fontFamily:'poppins' }}><span style={{ color: "#76c96e" }}><FontAwesomeIcon style={{ color: '#76c96e', width: '30px', fontSize: '30px' }} icon={faTasks} /> P</span>rojects</h2>
-            </Bounce>
+
+            <div data-aos="fade-right">
+                <h2 className="text-uppercase text-center " style={{ fontFamily: 'poppins' }}><span style={{ color: "#76c96e" }}><FontAwesomeIcon style={{ color: '#76c96e', width: '30px', fontSize: '30px' }} icon={faTasks} /> P</span>rojects</h2>
+            </div>
+
 
             <div className="row d-flex justify-content-center  mt-5 py-5" style={{ color: 'black', fontSize: "20px", fontFamily: 'roboto' }}>
                 {

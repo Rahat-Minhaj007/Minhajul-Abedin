@@ -10,7 +10,7 @@ import Home from './components/Home/Home/Home';
 import NoMatch from './components/NoMatch/NoMatch';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from 'react-loader-spinner';
-import Aos from 'aos';
+
 
 function App() {
   const [spinner, setSpinner] = useState(true)
@@ -18,9 +18,9 @@ function App() {
     setTimeout(() => setSpinner(false), 3000)
   }, []);
 
-  useEffect(() =>{
-    Aos.init({duration: 2000})
-})
+  
+
+
 
 
   return (

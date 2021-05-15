@@ -1,3 +1,12 @@
 .exp{
     width:28rem;
 }
+.blog{
+    margin-left: 41%;
+}
+
+ @media  (max-width: 768px){
+    .blog{
+        margin-left: 25%;
+    }
+}

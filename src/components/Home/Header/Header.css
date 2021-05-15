@@ -45,6 +45,7 @@
 #particle{
     position: absolute;
     z-index:1;
+   
     
 }
 #header{
@@ -63,6 +64,14 @@
       
     }
 
-   
+    #particle{
+        position: absolute;
+        z-index:2; 
+    }
+    #header{
+        position: absolute;
+        z-index:1;
+        
+    }
   
 }

@@ -51,12 +51,12 @@
     background-image: linear-gradient(135deg,#51a4a1,#76c96e);
 }
 
-/* @media(max-width:768px){
+@media(max-width:768px){
     .navigationBar{
         display: none;
       
     }
-} */
+}
 
 
 
