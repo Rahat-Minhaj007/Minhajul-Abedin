@@ -72,7 +72,7 @@ const Project = () => {
             </div>
 
 
-            <div className="row d-flex justify-content-center  mt-5 py-5" style={{ color: 'black', fontSize: "20px", fontFamily: 'roboto' }}>
+            <div className="row d-flex justify-content-around  mt-5 py-5" style={{ color: 'black', fontSize: "20px", fontFamily: 'roboto' }}>
                 {
                     projectData.map(pr => <ProjectDetail project={pr} key={pr.id}></ProjectDetail>)
                 }

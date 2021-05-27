@@ -8,7 +8,7 @@ const ProjectDetail = (props) => {
     const { img, name, tech, live, git } = props.project
     return (
 
-        <div className='col-md-6  project-card' data-aos="zoom-in-up">
+        <div className='col-md-6 mb-5  project-card' data-aos="zoom-in">
             <div class="card mb-3 pro" style={{ border: "none", width: "100%", boxShadow: "10px 10px 40px rgb(240, 240, 240)" }}>
                 <img style={{ width: '100%' }} src={img} class="card-img-top" alt="..." />
                 <div class="card-body">

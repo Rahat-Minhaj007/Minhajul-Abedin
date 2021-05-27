@@ -17,7 +17,7 @@ const Resume = () => {
                 <div className="col-md-3" >
                     <h3 className="text-center "><FontAwesomeIcon style={{ color: 'Black', width: '30px', fontSize: '30px' }} icon={faBriefcase} /> EXPERIENCE</h3>
 
-                    <div data-aos="zoom-in-up" className='exp mt-4' style={{ border: "none", width: '100%' }}
+                    <div data-aos="zoom-in" className='exp mt-4' style={{ border: "none", width: '100%' }}
                         class="card mt-4" >
                         <div class="card-body">
                             <h4 class="card-title">INTERNSHIP</h4>
@@ -34,7 +34,7 @@ const Resume = () => {
                 <div className="col-md-3">
                     <h3 className="text-center mb-4 mt-2"><FontAwesomeIcon style={{ color: 'Black', width: '30px', fontSize: '30px' }} icon={faGraduationCap} /> EDUCATION</h3>
 
-                    <div data-aos="zoom-in-up" style={{ border: "none", width: '100%' }}
+                    <div data-aos="zoom-in" style={{ border: "none", width: '100%' }}
                         class="card mt-4" >
                         <div class="card-body">
                             <h4 class="card-title">Daffodil International University</h4>
@@ -45,7 +45,7 @@ const Resume = () => {
                         </div>
                     </div>
 
-                    <div data-aos="zoom-in-up" style={{ border: "none", width: '100%' }}
+                    <div data-aos="zoom-in" style={{ border: "none", width: '100%' }}
                         class="card mt-4" >
                         <div class="card-body">
                             <h4 class="card-title">Dr. Mahbubur Rahman Mollah College</h4>
@@ -56,7 +56,7 @@ const Resume = () => {
                         </div>
                     </div>
 
-                    <div data-aos="zoom-in-up" style={{ border: "none", width: '100%' }}
+                    <div data-aos="zoom-in" style={{ border: "none", width: '100%' }}
                         class="card mt-4" >
                         <div class="card-body">
                             <h4 class="card-title">Shamsul Haque Khan School & College</h4>

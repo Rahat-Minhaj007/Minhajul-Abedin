@@ -15,7 +15,7 @@ const Blog = () => {
 
 
             <div className="row d-flex justify-content-center   mt-5 py-5" style={{ color: 'black', fontSize: "20px", fontFamily: 'roboto' }}>
-                <div className='col-md-10  project-card' data-aos="zoom-in-up">
+                <div className='col-md-10  project-card' data-aos="zoom-in">
                     <div className="card mb-3 pro" style={{ border: "none", width: "100%", boxShadow: "10px 10px 40px rgb(240, 240, 240)" }}>
                         <img style={{ width: '100%' }} src={blog1} className="card-img-top" alt="..." />
                         <div className="card-body">
@@ -32,7 +32,7 @@ const Blog = () => {
                     </div>
                 </div>
 
-                <div className='col-md-10  project-card mt-5'  data-aos="zoom-in-up">
+                <div className='col-md-10  project-card mt-5'  data-aos="zoom-in">
                     <div className="card mb-3 pro" style={{ border: "none", width: "100%", boxShadow: "10px 10px 40px rgb(240, 240, 240)" }}>
                         <img style={{ width: '100%' }} src={blog2} className="card-img-top" alt="..." />
                         <div className="card-body">
@@ -47,7 +47,7 @@ const Blog = () => {
                     </div>
                 </div>
 
-                <div className='col-md-10  project-card mt-5' data-aos="zoom-in-up">
+                <div className='col-md-10  project-card mt-5' data-aos="zoom-in">
                     <div className="card mb-3 pro" style={{ border: "none", width: "100%", boxShadow: "10px 10px 40px rgb(240, 240, 240)" }}>
                         <img style={{ width: '100%' }} src={blog3} className="card-img-top" alt="..." />
                         <div className="card-body">

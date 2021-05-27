@@ -33,7 +33,7 @@ const Contact = () => {
                         <h5 className="fw-bold text-center">GET IN TOUCH</h5>
                         <hr />
 
-                        <form className="contact-form email-form" onSubmit={sendEmail} data-aos="zoom-in-up">
+                        <form className="contact-form email-form" onSubmit={sendEmail} data-aos="zoom-in">
                             <div className="row">
                                 <div class="mb-3 col-md-10">
                                     <label for="exampleInputEmail1" class="form-label fw-bold ">First Name</label>
@@ -64,7 +64,7 @@ const Contact = () => {
                     <div style={{ fontSize: "20px", fontFamily: 'poppins', color: 'black' }} className="col-md-3 mt-5 d-flex flex-column text-center" >
                         <h5 className="fw-bold">CONTACT</h5>
                         <hr />
-                        <div data-aos="zoom-in-up">
+                        <div data-aos="zoom-in">
                             <p><FontAwesomeIcon icon={faMapMarkerAlt} /> 23/25 Bamoil,Demra,Dhaka</p>
                             <p><FontAwesomeIcon icon={faPhone} /> +8801521439303<br /></p>
                             <p><FontAwesomeIcon icon={faEnvelope} /> rahatminhaj444@gmail.com</p>
