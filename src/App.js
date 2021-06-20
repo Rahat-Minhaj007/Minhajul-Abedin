@@ -18,10 +18,6 @@ function App() {
     setTimeout(() => setSpinner(false), 3000)
   }, []);
 
-  
-
-
-
 
   return (
     <Router >
